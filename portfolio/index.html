@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Barisitom Akpee | Frontend Web Developer</title>
+  <meta name="description"
+    content="Portfolio of Barisitom Akpee, a Frontend Web Developer from Nigeria specializing in responsive, accessible and modern web applications.">
+  <meta property="og:title" content="Barisitom Akpee | Frontend Web Developer">
+  <meta property="og:description" content="Building modern, responsive and user-friendly digital experiences.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://example.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header id="siteHeader">
+    <nav>
+      <a href="#home" class="logo">BA<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="btn btn-primary btn-sm">Let's Talk</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">◐</button>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Hi, I'm Barisitom Akpee</p>
+          <h1>Frontend Web Developer</h1>
+          <p class="lead">I build responsive, accessible and engaging digital experiences that turn ideas into
+            functional web applications.</p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#contact" class="btn btn-outline">Let's Connect</a>
+          </div>
+          <a href="#" class="hero-secondary">Download CV (add link)</a>
+        </div>
+        <div class="hero-visual">
+          <div class="code-panel">
+            <div class="dots"><span></span><span></span><span></span></div>
+            <div class="line"><span class="tok-key">const</span> developer = {</div>
+            <div class="line">&nbsp;&nbsp;name: <span class="tok-str">'Barisitom Akpee'</span>,</div>
+            <div class="line">&nbsp;&nbsp;based: <span class="tok-str">'Port Harcourt, NG'</span>,</div>
+            <div class="line">&nbsp;&nbsp;stack: [<span class="tok-str">'React'</span>, <span
+                class="tok-str">'Node'</span>],</div>
+            <div class="line">&nbsp;&nbsp;learning: <span class="tok-key">true</span></div>
+            <div class="line">};</div>
+          </div>
+          <div class="badge badge-1">⚛ React</div>
+          <div class="badge badge-2">JS ES6+</div>
+          <div class="badge badge-3">Tailwind</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" style="background:var(--bg-alt);">
+      <div class="wrap about-grid">
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h2 style="margin-bottom:16px;">From patient care to production code</h2>
+          <p style="margin-bottom:14px;">I'm a passionate web developer from Port Harcourt, Nigeria, focused on creating
+            modern and user-friendly digital experiences. My journey combines years of professional experience in
+            healthcare with a growing career in software development.</p>
+          <p style="margin-bottom:14px;">My background in pharmacy has strengthened my attention to detail, accuracy,
+            documentation, communication and problem-solving — qualities I bring into software development.</p>
+          <p>Through structured learning and hands-on projects, I've developed experience across frontend development,
+            backend technologies, databases and API integration, and I enjoy turning ideas into useful digital products.
+          </p>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <h3 data-count="10">0</h3><span>Years Professional Experience</span>
+          </div>
+          <div class="stat">
+            <h3 data-count="3">0</h3><span>Web Projects</span>
+          </div>
+          <div class="stat">
+            <h3 data-count="100">0</h3><span>% Continuous Learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Skills</p>
+          <h2>Technologies I work with</h2>
+          <p>A practical toolkit built through structured coursework and real projects.</p>
+        </div>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <h3>Frontend Development</h3>
+            <div class="tag-row">
+              <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span>
+              <span class="tag">React</span><span class="tag">Tailwind CSS</span><span class="tag">Responsive
+                Design</span><span class="tag">Accessibility</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Backend Development</h3>
+            <div class="tag-row">
+              <span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">EJS</span><span
+                class="tag">REST APIs</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Database</h3>
+            <div class="tag-row"><span class="tag">PostgreSQL</span><span class="tag">JSON</span></div>
+          </div>
+          <div class="skill-card">
+            <h3>Tools & Workflow</h3>
+            <div class="tag-row">
+              <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Vite</span><span
+                class="tag">VS Code</span><span class="tag">API Integration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" style="background:var(--bg-alt);">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Selected work</h2>
+          <p>A mix of frontend, full-stack and concept builds — replace thumbnails and links with your own.</p>
+        </div>
+        <div class="project-grid" id="projectGrid"></div>
+        <div style="margin-top:32px;"><a href="https://github.com/Barisitom" class="btn btn-outline">View All
+            Projects</a></div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Experience</p>
+          <h2>Where my discipline comes from</h2>
+          <p>Years in healthcare operations built the accuracy and communication habits I now bring to software.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Pharmacy Technician — Diadem Consult Initiative</h3>
+            <div class="meta">2019 – 2025</div>
+            <ul>
+              <li>Patient communication</li>
+              <li>Prescription handling</li>
+              <li>Inventory management</li>
+              <li>Documentation & data accuracy</li>
+              <li>Problem-solving under pressure</li>
+              <li>Attention to detail</li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <h3>Pharmacy Technician — Bishop Elenwo Memorial Hospital</h3>
+            <div class="meta">Healthcare Operations</div>
+            <ul>
+              <li>Medication inventory management</li>
+              <li>Prescription processing</li>
+              <li>Documentation & accuracy</li>
+              <li>Healthcare operations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education" style="background:var(--bg-alt);">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Education</p>
+          <h2>Structured learning, real projects</h2>
+        </div>
+        <div class="edu-card">
+          <h3>Brigham Young University–Idaho</h3>
+          <p style="margin-top:6px;">Web & Computer Programming</p>
+          <div class="course-row">
+            <span class="tag">WDD130</span><span class="tag">WDD131</span><span class="tag">WDD231</span>
+            <span class="tag">WDD330</span><span class="tag">CSE212</span><span class="tag">CSE340</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap why-grid">
+        <div class="why-card">
+          <h3>Problem Solver</h3>
+          <p>I approach technical challenges logically and work toward practical solutions.</p>
+        </div>
+        <div class="why-card">
+          <h3>Detail Oriented</h3>
+          <p>My professional background has strengthened my focus on accuracy and quality.</p>
+        </div>
+        <div class="why-card">
+          <h3>User Focused</h3>
+          <p>I build interfaces with usability, accessibility and responsiveness in mind.</p>
+        </div>
+        <div class="why-card">
+          <h3>Continuous Learner</h3>
+          <p>I actively develop my knowledge through structured education and practical projects.</p>
+        </div>
+        <div class="why-card">
+          <h3>Reliable</h3>
+          <p>I value communication, consistency and completing work to a high standard.</p>
+        </div>
+        <div class="why-card">
+          <h3>Adaptable</h3>
+          <p>I can learn new technologies and adapt to different project requirements.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" style="background:var(--bg-alt);">
+      <div class="wrap contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow">Contact</p>
+          <h2 style="margin-bottom:14px;">Let's build something great together.</h2>
+          <p style="margin-bottom:24px;">Have a project, opportunity or idea you'd like to discuss? I'd love to hear
+            from you.</p>
+          <a href="mailto:[email protected]">akpeebarisitom@gmail.com</a>
+          <div>Phone: +234 808 685 7185</div>
+          <a href="https://github.com/Barisitom" target="_blank" rel="noopener">github.com/Barisitom</a>
+          <a href="https://www.linkedin.com/in/barisitom-akpee-100455375/" target="_blank" rel="noopener">LinkedIn
+            Profile</a>
+          <div>Port Harcourt, Nigeria</div>
+        </div>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+              <div class="error-text" data-error-for="name"></div>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+              <div class="error-text" data-error-for="email"></div>
+            </div>
+          </div>
+          <div>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+            <div class="error-text" data-error-for="subject"></div>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <div class="error-text" data-error-for="message"></div>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <div id="formStatus" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div>
+        <div class="logo">Barisitom Akpee</div>
+        <div style="color:var(--text-soft); font-size:.9rem; margin-top:4px;">Frontend Web Developer</div>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/Barisitom" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/barisitom-akpee-100455375/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:[email protected]">Email</a>
+      </div>
+      <div class="footer-note">© 2026 Barisitom Akpee. Built with passion, code and continuous learning.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
