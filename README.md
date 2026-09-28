@@ -38,7 +38,6 @@ portfolio/
 ├── index.html    # Page structure and content
 ├── styles.css    # Design tokens, layout, themes, responsive rules
 ├── script.js     # Navigation, theme toggle, counters, projects, form validation
-└── README.md
 ```
 
 ## Getting Started
@@ -91,10 +90,8 @@ Built with semantic HTML, keyboard-friendly controls, visible focus indicators, 
 
 - GitHub: [github.com/Barisitom](https://github.com/Barisitom)
 - LinkedIn: [Barisitom Akpee](https://www.linkedin.com/in/barisitom-akpee-100455375/)
+- Email: akpeebarisitom@gmail.com
 - Location: Port Harcourt, Nigeria
 
-## License
-
-[Choose a license, e.g. MIT, or remove this section]
 
 © 2026 Barisitom Akpee. Built with passion, code and continuous learning.
